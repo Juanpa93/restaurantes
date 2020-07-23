@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/yellow">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido_a_mis_restaurantes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingVertical="10dp"
+        android:textSize="25dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:paddingBottom="50dp"
+
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:src="@drawable/bandeja">
+
+        </ImageView>
+
+
+        <Button
+            android:id="@+id/bt_principal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sede_principal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/boton_redondo"
+            android:paddingBottom="3dp"/>
+        <Button
+            android:id="@+id/bt_niquia"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sede_niquia"
+            android:layout_gravity="center"
+            android:background="@drawable/boton_redondo"
+            android:paddingBottom="3dp"
+            />
+        <Button
+            android:id="@+id/bt_envigado"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sede_envigago"
+            android:layout_gravity="center"
+            android:background="@drawable/boton_redondo"
+            android:paddingBottom="3dp"/>
+        <Button
+            android:id="@+id/bt_itagui"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sede_itagui"
+            android:layout_gravity="center"
+            android:background="@drawable/boton_redondo"
+            android:paddingBottom="3dp"/>
+
+
+</LinearLayout>
